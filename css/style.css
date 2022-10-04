@@ -9,7 +9,13 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     background-color: lightgrey;
+}
+
+.logo-navigation figure, .logo-navigation nav {
+    margin: 0;
+    height: 100%;
 }
 
 .logo-navigation img {
